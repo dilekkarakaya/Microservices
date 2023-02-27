@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Contact.API
+namespace Reservation.API
 {
     public class Program
     {
@@ -20,7 +20,6 @@ namespace Contact.API
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://*:9000");
                     webBuilder.UseStartup<Startup>();
                 });
     }
