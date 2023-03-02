@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.API.Services\ContactAPI.Services.csproj" />
+    <ProjectReference Include="..\ContactAPI.infrastructure\ContactAPI.Infrastructure.csproj" />
+    <ProjectReference Include="..\ContactAPIModels\ContactAPI.Models.csproj" />
+  </ItemGroup>
+
 </Project>

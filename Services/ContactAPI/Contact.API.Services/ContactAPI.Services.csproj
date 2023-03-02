@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ContactAPI.infrastructure\ContactAPI.Infrastructure.csproj" />
     <ProjectReference Include="..\ContactAPIModels\ContactAPI.Models.csproj" />
   </ItemGroup>
 
